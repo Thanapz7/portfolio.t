@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Prompt", sans-serif;
+    background-color: #f8f8fc;
+}
+.navbar{
+    background-color: white;
+}
+.nav-link{
+    color: black;
+    font-style: 1rem;
+    font-weight: 500;
+    border-radius: 1rem;
+}
+.nav-link:hover{
+    color: white;
+    background-color: #ec1839;
+    border-radius: 1rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.navbar-brand:hover{
+    color: #ec1839;
+}
+.mt-custom{
+    margin-top: 5rem;
+}
+.red-t{
+    color: #ec1839;
+}
+.typing{
+    color: #ec1839;
+}
+.btn-about{
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: #ec1839;
+    color: white;
+}
+.btn-about:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid #ec1839;
+}
+.btn-hire{
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: red;
+    background-color: white;
+    border: 1px solid #ec1839;
+}
+.btn-hire:hover{
+    background-color: #ec1839;
+    color: white;
+}
+
+.title h2::before {
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: #ec1839;
+    position: absolute;
+    top: 7.25rem;
+    left: 10.1875rem;
+}
+.title h2::after {
+    content: '';
+    height: 4px;
+    width: 25px;
+    background-color: #ec1839;
+    position: absolute;
+    top: 7.75rem;
+    left: 10.1875rem;
+}
+
+/* about */
+.card{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.info-item p{
+    border-bottom: 1px solid #e8dfec73;
+    font-size: 18px;
+    font-weight: 600;
+}
+.info-item span{
+    font-weight: 400;
+}
+.tag-a{
+    text-decoration: none;
+    color: #ec1839;
+}
+.bg-skill{
+    background-color: #ec1839;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.bg-skill h1{
+    color: white;
+}
+.skill-info{
+    position: relative;
+}
+.skills{
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1px;
+}
+.skill-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-item i{
+    padding: 40px 0;
+    font-size: 45px;
+    color: #ec1839;
+}
+.skill-item h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.tools h4,
+.languages h4{
+    font-size: 18px;
+    color: #ec1839;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: -20px;
+}
+li{
+    margin-bottom: 5px;
+}
+.text-muted{
+    color: #222222d2;
+}
+
+
+/* certificates */
+.certificates .card{
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.certificates .card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.certificates .card-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.certificates .card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.certificates h3{
+    color: #ec1839;
+    font-size: 20px;
+}
+.certificates p{
+    color: #222222d2;
+}
+
+/* experiences */
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-card{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content-item{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.content-head{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.responsible{
+    font-weight: 500;
+}
+.content-footer{
+    margin-top: 15px;
+}
+.links{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    padding: 5px;
+}
+.date{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+.content-footer i{
+    font-size: 20px;
+}
+.left-card{
+    
+}
+.left-card.ex1{
+    background-color: #A62C2C;
+}
+.right-card.ex1{
+    border-bottom: 8px solid #A62C2C;
+}
+.ex1 .links i,
+.ex1 .content-head{
+    color: #A62C2C;
+}
+.left-card.ex2{
+    background-color: #E83F25;
+}
+.right-card.ex2{
+    border-bottom: 8px solid #E83F25;
+}
+.ex2 .links i,
+.ex2 .content-head{
+    color: #E83F25;
+}
+.left-card.ex3{
+    background-color: #EA7300;
+}
+.right-card.ex3{
+    border-bottom: 8px solid #EA7300;
+}
+.ex3 .links i,
+.ex3 .content-head{
+    color: #EA7300;
+}
+.left-card.ex4{
+    background-color: #D3CA79;
+}
+.right-card.ex4{
+    border-bottom: 8px solid #D3CA79;
+}
+.ex4 .links i,
+.ex4 .content-head{
+    color: #D3CA79;
+}
+.left-card.ex5{
+    background-color: #F5ECD5;
+}
+.right-card.ex5{
+    border-bottom: 8px solid #F5ECD5;
+}
+.ex5 .links i,
+.ex5 .content-head{
+    color: #F5ECD5;
+}
+
+/* contact */
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-title h3{
+    color: #ec1839;
+}
+.contact-icon{
+    font-size: 30px;
+    color: #ec1839;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.contact-icon:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.contact-title h5{
+    color: #ec1839;
+    font-size: 20px;
+}
+.contact-title p{
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .title h2::before {
+        top: 6.625rem;
+        left: 3.75rem;
+    }
+    .title h2::after {
+        top: 7.25rem;
+        left: 3.75rem;
+    }
+    .content-card{
+        height: auto;
+    }
+}
